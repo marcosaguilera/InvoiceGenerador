@@ -40,10 +40,10 @@ public class SendMail {
                 Message.RecipientType.TO, new InternetAddress("maguilera@rochester.edu.co"));
         //message.addRecipient(
         //        Message.RecipientType.TO, new InternetAddress("azarate@rochester.edu.co"));
-        message.addRecipient(
-                Message.RecipientType.TO, new InternetAddress("famunoz@rochester.edu.co"));
-        message.addRecipient(
-                Message.RecipientType.TO, new InternetAddress("efernandez@rochester.edu.co"));
+//        message.addRecipient(
+//                Message.RecipientType.TO, new InternetAddress("famunoz@rochester.edu.co"));
+//        message.addRecipient(
+//                Message.RecipientType.TO, new InternetAddress("efernandez@rochester.edu.co"));
 
         message.setSubject("Aprendoz - Archivo PSE Generado");
 

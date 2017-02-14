@@ -428,35 +428,17 @@ public class InvoiceActions {
     } 
     
     public void deleteFileTxt(){
-    
-        File f = null;
-        boolean bool = false;
-
+        
         try{
-           // create new file
-           f = new File("/Volumes/sapiens/INTERFASE/PSE_FILES/PSE_FILE_MAIL.txt");
-
-           // tries to delete a non-existing file
-           bool = f.delete();
-
-           // prints
-           System.out.println("File deleted: "+bool);
-
-           // creates file in the system
-           f.createNewFile();
-
-           // createNewFile() is invoked
-           System.out.println("createNewFile() method is invoked");
-
-           // tries to delete the newly created file
-           bool = f.delete();
-
-           // print
-           System.out.println("File deleted: "+bool);
-
-        }catch(Exception e){
-           // if any error occurs
-           e.printStackTrace();
-        }   
+    		File file = new File("/Volumes/sapiens/INTERFASE/PSE_FILES/PSE_FILE_MAIL.txt");
+                
+    		if(file.delete()){
+    			System.out.println(file.getName() + " is deleted!");
+    		}else{
+    			System.out.println("Delete operation is failed.");
+    		}
+    	}catch(Exception e){
+    		e.printStackTrace();
+    	}
     }
 }
