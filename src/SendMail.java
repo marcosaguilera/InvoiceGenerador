@@ -38,8 +38,6 @@ public class SendMail {
         
         message.addRecipient(
                 Message.RecipientType.TO, new InternetAddress("maguilera@rochester.edu.co"));
-        //message.addRecipient(
-        //        Message.RecipientType.TO, new InternetAddress("azarate@rochester.edu.co"));
         message.addRecipient(
                 Message.RecipientType.TO, new InternetAddress("famunoz@rochester.edu.co"));
         message.addRecipient(

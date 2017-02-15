@@ -203,7 +203,7 @@ public class InvoiceActions {
                 String sql_update_sep  = "UPDATE importacion_cartera i set i.mensualidad = \"SEPTIEMBRE\" WHERE i.mensualidad=\"2016-09-01\"";
                 String sql_update_oct  = "UPDATE importacion_cartera i set i.mensualidad = \"OCTUBRE\" WHERE i.mensualidad=\"2016-10-01\"";
                 String sql_update_nov  = "UPDATE importacion_cartera i set i.mensualidad = \"NOVIEMBRE\" WHERE i.mensualidad=\"2016-11-01\"";
-                String sql_update_dec  = "UPDATE importacion_cartera i set i.mensualidad = \"NOVIEMBRE\" WHERE i.mensualidad=\"2016-12-01\"";
+                String sql_update_dec  = "UPDATE importacion_cartera i set i.mensualidad = \"DICIEMBRE\" WHERE i.mensualidad=\"2016-12-01\"";
                 String sql_update_jan  = "UPDATE importacion_cartera i set i.mensualidad = \"ENERO\" WHERE i.mensualidad=\"2017-01-01\"";
                 String sql_update_feb  = "UPDATE importacion_cartera i set i.mensualidad = \"FEBRERO\" WHERE i.mensualidad=\"2017-02-01\"";
                 String sql_update_mar  = "UPDATE importacion_cartera i set i.mensualidad = \"MARZO\" WHERE i.mensualidad=\"2017-03-01\"";
